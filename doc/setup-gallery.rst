@@ -8,6 +8,10 @@ Example::
    $ veros copy-setup acc_sector
 
 
+.. note::
+
+   To use the setups below, make sure you have :doc:`veros-extra-setups installed <installation>`.
+
 Idealized configurations
 ------------------------
 
