@@ -2,10 +2,10 @@ import warnings
 
 try:
     from veros import __version__ as veros_version
-except ImportError:
+except ImportError as exc:
     raise RuntimeError(
         'veros-extra-setups needs Veros to be installed (try `pip install veros`)'
-    )
+    ) from exc
 
 from . import _version
 __version__ = _version.get_versions()['version']

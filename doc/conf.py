@@ -17,9 +17,6 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 
-from docutils.parsers.rst import Directive, directives
-from docutils import nodes, statemachine
-from os.path import basename
 import os
 import sys
 sys.path.insert(0, os.path.abspath('..'))
@@ -183,6 +180,9 @@ intersphinx_mapping = {
 }
 
 # -- Custom directives ----------------------------------------------------
+
+from docutils.parsers.rst import Directive, directives
+from docutils import nodes
 
 
 class ClickDirective(Directive):
