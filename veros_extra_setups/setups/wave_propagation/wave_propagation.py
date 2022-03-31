@@ -54,7 +54,7 @@ class WavePropagationSetup(VerosSetup):
         settings.nx = 180
         settings.ny = 180
         settings.nz = 60
-        settings.dt_mom = settings.dt_tracer = 0
+        settings.dt_mom = settings.dt_tracer = 1800
         settings.runlen = 86400 * 10
 
         settings.x_origin = 90.0
