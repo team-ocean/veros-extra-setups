@@ -38,6 +38,7 @@ class ACCSectorSetup(VerosSetup):
         settings = state.settings
 
         settings.identifier = "acc_sector"
+        settings.description = "ACC sector model"
 
         settings.nx, settings.ny, settings.nz = 15, 62, 40
         settings.dt_mom = 3600.0
