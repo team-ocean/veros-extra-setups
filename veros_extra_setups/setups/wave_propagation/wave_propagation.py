@@ -50,6 +50,7 @@ class WavePropagationSetup(VerosSetup):
         settings = state.settings
 
         settings.identifier = "wave_propagation"
+        settings.description = "Idealized wave propagation model"
 
         settings.nx = 180
         settings.ny = 180

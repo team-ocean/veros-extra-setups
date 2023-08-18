@@ -27,6 +27,7 @@ class FjordSetup(VerosSetup):
         settings = state.settings
 
         settings.identifier = "fjord"
+        settings.description = "Idealized fjord model"
 
         settings.nx, settings.ny, settings.nz = 32, 96, 10
         settings.dt_mom = 4.0
