@@ -1,4 +1,4 @@
-Sphinx==7.2.6
+Sphinx==7.3.5
 furo==2024.1.29
 sphinxcontrib-programoutput==0.17
 veros==1.5.1
